@@ -1,0 +1,127 @@
+﻿.home-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container .ant-form {
+    margin: 10px 0;
+}
+
+.container .ant-form .ant-form-item {
+    width: 100%;
+}
+
+.container .ant-form .ant-form-item-control-wrapper {
+    display: block;
+}
+
+.ant-row .ant-col {
+    border: 1px solid transparent;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.my-custom-scrollbar .ant-input-search {
+    width: 200px;
+    margin: 15px 0;
+}
+
+.my-custom-scrollbar .ant-form {
+    margin: 0 0;
+}
+
+.my-custom-scrollbar .ant-row {
+    line-height: 30px;
+}
+
+.my-custom-scrollbar .ant-row .ant-col {
+    padding: 5px 10px;
+    border: 1px solid #d9d9d9;
+    height: 60px;
+}
+
+.my-custom-scrollbar .ant-row .ant-col .ant-form-item {
+    border: none;
+}
+
+.my-custom-scrollbar .ant-row .ant-col .ant-form-item-control-wrapper {
+    border: none;
+}
+
+.my-custom-scrollbar .ant-row .ant-col .ant-form-item .ant-form-item-control-wrapper {
+    padding: 0;
+    position: relative;
+    top: -5px;
+}
+
+.my-custom-scrollbar .ant-row .ant-col button[name=btnSave] {
+    background-color: transparent;
+    /*border-color: transparent;*/
+    margin-right: 10px;
+    width: 27px;
+    border: none;
+}
+
+.my-custom-scrollbar .my-row-header {
+    font-weight: bold;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+.active-pink-2 input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+}
+
+.my-alert-error {
+    color: red;
+    border-color: none;
+    background-color: none;
+}
+
+.my-col-10 {
+    width: 5%;
+}
+
+.my-col-10 {
+    width: 10%;
+}
+
+.my-col-15 {
+    width: 15%;
+}
+
+.my-col-20 {
+    width: 20%;
+}
+
+.my-col-25 {
+    width: 25%;
+}
+
+.my-col-30 {
+    width: 30%;
+}
+
+.ant-col span i.fas {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.login-container {
+    max-width: 420px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.login-form-button {
+    width: 100%;
+}

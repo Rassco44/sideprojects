@@ -1,0 +1,25 @@
+<h1 id="tableLabel">Employee Details</h1>
+
+<p *ngIf="!employees"><em>Loading...</em></p>
+
+<input type="button" value="Add Employee" class="btn-primary" id="btnAddEmployee" onclick="" /><br /><br />
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="employees">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Designation</th>
+      <th>MobileNumber</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let employee of employees">
+      <td>{{ employee.id }}</td>
+      <td>{{ employee.name }}</td>
+      <td>{{ employee.age }}</td>
+      <td>{{ employee.designation }}</td>
+      <td>{{ employee.mobileNumber }}</td>
+    </tr>
+  </tbody>
+</table>
